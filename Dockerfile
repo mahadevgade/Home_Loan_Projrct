@@ -1,6 +1,6 @@
 
 
-FROM openjdk:17
+FROM openjdk:1.8
 
 COPY target/homeloan.jar homeloan.jar
 
