@@ -2,8 +2,8 @@
 
 FROM openjdk:17
 
-COPY target/stumgmt.jar stumgmt.jar
+COPY target/homeloan.jar homeloan.jar
 
 EXPOSE 9090 
 
-ENTRYPOINT ["java", "-jar", "stumgmt.jar"]  
+ENTRYPOINT ["java", "-jar", "homeloan.jar"]  
